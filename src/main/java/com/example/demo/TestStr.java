@@ -25,5 +25,8 @@ public class TestStr {
 //                BeanUtils.copyProperties(person,person1);
 //            });
         }
+        Person person = null;
+        String a = "123" + person;
+        System.out.println(a);
     }
 }
