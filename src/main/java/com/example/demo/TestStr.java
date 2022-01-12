@@ -28,5 +28,7 @@ public class TestStr {
         Person person = null;
         String a = "123" + person;
         System.out.println(a);
+        Person person2 = new Person();
+        System.out.println(person2.getSex());
     }
 }

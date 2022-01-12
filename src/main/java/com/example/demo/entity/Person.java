@@ -1,23 +1,12 @@
 package com.example.demo.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
+@NoArgsConstructor
+@Data
 public class Person {
-    private int sex;
-
-    public int getSex() {
-        return sex;
-    }
-
-    public void setSex(int sex) {
-        this.sex = sex;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "sex=" + sex +
-                '}';
-    }
+    private Integer sex;
 }
