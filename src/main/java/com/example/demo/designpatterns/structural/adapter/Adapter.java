@@ -1,4 +1,4 @@
-package com.example.demo.designpatterns.adapter;
+package com.example.demo.designpatterns.structural.adapter;
 
 /**
  * Adapter来适配 HomeBattery 和 UsbLine

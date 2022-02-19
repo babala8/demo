@@ -1,4 +1,4 @@
-package com.example.demo.designpatterns.adapter;
+package com.example.demo.designpatterns.structural.adapter;
 
 public class USBLine {
     public void charge(int volt) {

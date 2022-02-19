@@ -1,8 +1,8 @@
-package com.example.demo.designpatterns.adapter.test;
+package com.example.demo.designpatterns.structural.adapter.test;
 
-import com.example.demo.designpatterns.adapter.Adapter;
-import com.example.demo.designpatterns.adapter.HomeBattery;
-import com.example.demo.designpatterns.adapter.USBLine;
+import com.example.demo.designpatterns.structural.adapter.Adapter;
+import com.example.demo.designpatterns.structural.adapter.HomeBattery;
+import com.example.demo.designpatterns.structural.adapter.USBLine;
 
 public class UserTest {
 
