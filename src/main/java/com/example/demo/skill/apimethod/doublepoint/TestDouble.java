@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.skill.apimethod.doublepoint;
 
 public class TestDouble {
     public static void main(String[] args) {

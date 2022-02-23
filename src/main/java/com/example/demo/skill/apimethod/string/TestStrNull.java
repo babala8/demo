@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.skill.apimethod.string;
 
 import com.example.demo.entity.Person;
 import com.example.demo.entity.Person1;
@@ -8,7 +8,7 @@ import org.springframework.util.CollectionUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestStr {
+public class TestStrNull {
 
     public static void main(String[] args) {
         List<Person> personArrayList = new ArrayList<>();

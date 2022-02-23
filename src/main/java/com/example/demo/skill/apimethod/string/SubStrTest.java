@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.skill.apimethod.string;
 
 import org.apache.commons.lang3.StringUtils;
 
