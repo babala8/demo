@@ -9,9 +9,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ConcurrentModificationExceptionTest {
 
-    /**
-     *
-     */
     public void ConcurrentModification(){
 
 //        List<Person> personList = new ArrayList<>();
