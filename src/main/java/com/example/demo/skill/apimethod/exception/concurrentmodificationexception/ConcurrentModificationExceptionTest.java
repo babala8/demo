@@ -1,4 +1,4 @@
-package com.example.demo.skill.apimethod.exception.concurrentModificationException;
+package com.example.demo.skill.apimethod.exception.concurrentmodificationexception;
 
 import com.example.demo.entity.Person;
 
