@@ -1,4 +1,4 @@
-package com.example.demo.skill.apimethod.catchException;
+package com.example.demo.skill.apimethod.exception.catchException;
 
 import com.example.demo.skill.copybeanutil.B;
 import com.example.demo.skill.copybeanutil.mapstruct.Converter;
