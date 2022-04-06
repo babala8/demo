@@ -27,6 +27,7 @@ public class ConcurrentModificationExceptionTest {
          * 注意：
          *  1.像使用for-each 或 iterator()进行迭代实际上也会出现这种问题
          *  2.多线程情况也会出现这种问题
+         * 解决：
          * 可使用并发容器解决 CopyOnWriteArrayList
          */
         personList.forEach(p->{
