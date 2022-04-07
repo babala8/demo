@@ -34,7 +34,7 @@ public class CatchException {
             b = converter.aToB(a);
             // 如有错误码可在此判断错误码，return
         } catch (Exception e) {
-            log.error("调用服务出错，{}",e.getMessage());
+            log.error("调用服务出错，错误码：{}，错误信息：{}",e,e.getMessage());
             return b;
         }
         return b;
