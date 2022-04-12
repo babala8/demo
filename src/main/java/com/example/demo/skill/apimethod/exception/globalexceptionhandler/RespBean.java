@@ -14,6 +14,7 @@ public class RespBean<T> {
         return new RespBean<Type>(RespBeanEnum.SUCCESS.getCode(), RespBeanEnum.SUCCESS.getMessage(), null);
     }
 
+    /** 方法的参数类型不确定时，使用泛型方法，第一个<Type>代表是一个泛型方法,入参类型Type data，RespBean<Type>代表返回值 */
     public static <Type> RespBean<Type> successWithData(Type data) {
         return new RespBean<Type>(RespBeanEnum.SUCCESS.getCode(), RespBeanEnum.SUCCESS.getMessage(), data);
     }
