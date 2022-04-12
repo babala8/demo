@@ -4,32 +4,32 @@ package com.example.demo.skill.apimethod.exception.globalexceptionhandler;
  * @author ldy
  * @version 1.0
  */
-public class RespBean {
+public class RespBean<T> {
 
     private long code;
     private String message;
-    private Object object;
+    private T data;
 
-    public static RespBean success() {
-        return new RespBean(RespBeanEnum.SUCCESS.getCode(), RespBeanEnum.SUCCESS.getMessage(), null);
+    public static <Type> RespBean<Type> successWithoutData() {
+        return new RespBean<Type>(RespBeanEnum.SUCCESS.getCode(), RespBeanEnum.SUCCESS.getMessage(), null);
     }
 
-    public static RespBean success(Object object) {
-        return new RespBean(RespBeanEnum.SUCCESS.getCode(), RespBeanEnum.SUCCESS.getMessage(), object);
+    public static <Type> RespBean<Type> successWithData(Type data) {
+        return new RespBean<Type>(RespBeanEnum.SUCCESS.getCode(), RespBeanEnum.SUCCESS.getMessage(), data);
     }
 
-    public static RespBean error(RespBeanEnum respBeanEnum) {
-        return new RespBean(respBeanEnum.getCode(), respBeanEnum.getMessage(), null);
+    public static <Type> RespBean<Type> error(RespBeanEnum respBeanEnum) {
+        return new RespBean<Type>(respBeanEnum.getCode(), respBeanEnum.getMessage(), null);
     }
 
-    public static RespBean error(RespBeanEnum respBeanEnum, Object object) {
-        return new RespBean(respBeanEnum.getCode(), respBeanEnum.getMessage(), object);
+    public static <Type> RespBean<Type> error(RespBeanEnum respBeanEnum, Type data) {
+        return new RespBean<Type>(respBeanEnum.getCode(), respBeanEnum.getMessage(), data);
     }
 
-    public RespBean(long code, String message, Object object) {
+    public RespBean(long code, String message, T data) {
         this.code = code;
         this.message = message;
-        this.object = object;
+        this.data = data;
     }
 
     public RespBean(){
@@ -52,11 +52,11 @@ public class RespBean {
         this.message = message;
     }
 
-    public Object getObject() {
-        return object;
+    public T getData() {
+        return data;
     }
 
-    public void setObject(Object object) {
-        this.object = object;
+    public void setData(T data) {
+        this.data = data;
     }
 }
