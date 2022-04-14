@@ -1,7 +1,7 @@
-package com.example.demo.skill.copybeanutil.common;
+package com.example.demo.skill.apimethod.copybeanutil.common;
 
-import com.example.demo.skill.copybeanutil.A;
-import com.example.demo.skill.copybeanutil.B;
+import com.example.demo.skill.apimethod.copybeanutil.A;
+import com.example.demo.skill.apimethod.copybeanutil.B;
 import org.apache.commons.beanutils.BeanUtils;
 
 import java.lang.reflect.InvocationTargetException;

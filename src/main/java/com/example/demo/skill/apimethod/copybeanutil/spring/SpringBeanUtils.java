@@ -1,7 +1,7 @@
-package com.example.demo.skill.copybeanutil.spring;
+package com.example.demo.skill.apimethod.copybeanutil.spring;
 
-import com.example.demo.skill.copybeanutil.A;
-import com.example.demo.skill.copybeanutil.B;
+import com.example.demo.skill.apimethod.copybeanutil.A;
+import com.example.demo.skill.apimethod.copybeanutil.B;
 import org.springframework.beans.BeanUtils;
 
 import java.util.Arrays;

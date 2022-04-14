@@ -1,7 +1,4 @@
-package com.example.demo.skill.copybeanutil.plugingenerateO2O;
-
-import com.example.demo.skill.copybeanutil.A;
-import com.example.demo.skill.copybeanutil.B;
+package com.example.demo.skill.apimethod.copybeanutil.plugingenerateO2O;
 
 public class GenerateO2O {
 

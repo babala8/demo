@@ -1,10 +1,10 @@
 package com.example.demo.skill.apimethod.exception.catchexception;
 
-import com.example.demo.skill.copybeanutil.B;
-import com.example.demo.skill.copybeanutil.mapstruct.Converter;
+import com.example.demo.skill.apimethod.copybeanutil.B;
+import com.example.demo.skill.apimethod.copybeanutil.mapstruct.Converter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.demo.skill.copybeanutil.A;
+import com.example.demo.skill.apimethod.copybeanutil.A;
 
 @Slf4j
 public class CatchException {

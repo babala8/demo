@@ -1,6 +1,6 @@
 
 
-
+设计模式-模板模式
 
 1.TemplateService接口放到core中作为依赖
 

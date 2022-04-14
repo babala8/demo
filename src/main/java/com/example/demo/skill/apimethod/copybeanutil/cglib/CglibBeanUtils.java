@@ -1,7 +1,7 @@
-package com.example.demo.skill.copybeanutil.cglib;
+package com.example.demo.skill.apimethod.copybeanutil.cglib;
 
-import com.example.demo.skill.copybeanutil.A;
-import com.example.demo.skill.copybeanutil.B;
+import com.example.demo.skill.apimethod.copybeanutil.A;
+import com.example.demo.skill.apimethod.copybeanutil.B;
 import net.sf.cglib.beans.BeanCopier;
 //import org.easymock.cglib.beans.BeanCopier;
 

@@ -1,4 +1,4 @@
-package com.example.demo.skill.copybeanutil;
+package com.example.demo.skill.apimethod.copybeanutil;
 
 
 import lombok.Data;

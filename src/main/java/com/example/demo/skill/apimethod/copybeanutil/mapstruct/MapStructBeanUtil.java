@@ -1,7 +1,7 @@
-package com.example.demo.skill.copybeanutil.mapstruct;
+package com.example.demo.skill.apimethod.copybeanutil.mapstruct;
 
-import com.example.demo.skill.copybeanutil.A;
-import com.example.demo.skill.copybeanutil.B;
+import com.example.demo.skill.apimethod.copybeanutil.A;
+import com.example.demo.skill.apimethod.copybeanutil.B;
 
 import java.util.Arrays;
 
