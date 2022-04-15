@@ -44,11 +44,12 @@ public class ThreadExecutorSubmitCallable implements Callable<Integer> {
         executorService.shutdown();
 
         try {
-            /**
-             * 1. 不管提交的是Runnable还是Callable类型的任务，如果不对返回值Future调用get()方法，都不会抛出异常
-             * 2. submit不管是Runnable还是Callable类型的任务都可以接受，但是Runnable返回值均为void，所以使用Future的get()获得的还是null
-             * */
-            for (Future<Integer> future : futureList) {// 获取所有并发任务结果
+            // 获取所有并发任务结果
+            for (Future<Integer> future : futureList) {
+                /**
+                 * 1. 不管提交的是Runnable还是Callable类型的任务，如果不对返回值Future调用get()方法，都不会抛出异常
+                 * 2. submit不管是Runnable还是Callable类型的任务都可以接受，但是Runnable返回值均为void，所以使用Future的get()获得的还是null
+                 * */
                 Integer integer = future.get();
                 // 从 Future 对象上获取任务的返回值，并输出到控制台
                 System.out.println("res：" + future.get().toString());
